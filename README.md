@@ -226,6 +226,6 @@ Let's connect:
 
 <p align="center">
 
-<img src="https://giphy.com/gifs/pudgypenguins-happy-coffee-in-my-zone-Sl7OlpTiHi9pPPZKp4" width="480" height="480">
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTZnbHVmaTNzZTU4a25vdzJkeHZ3ZTJjeG1uNW12aTk1bXA3aWUzNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Sl7OlpTiHi9pPPZKp4/giphy.gif" width="480" height="480">
 
 </p>
