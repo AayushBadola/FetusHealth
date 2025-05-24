@@ -1,3 +1,5 @@
+<p align="center">
+   
 [python-badge]: https://img.shields.io/badge/Python-3.9%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white
 [python-link]: https://www.python.org/
 [tensorflow-badge]: https://img.shields.io/badge/TensorFlow-2.10%2B-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white
@@ -11,6 +13,7 @@
 [license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
 [license-link]: https://opensource.org/licenses/MIT
 
+</p>
 
 # Advanced Fetal Health Classification using Hybrid Deep Learning
 
