@@ -1,18 +1,11 @@
 <p align="center">
    
-[python-badge]: https://img.shields.io/badge/Python-3.9%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white
-[python-link]: https://www.python.org/
-[tensorflow-badge]: https://img.shields.io/badge/TensorFlow-2.10%2B-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white
-[tensorflow-link]: https://www.tensorflow.org/
-[keras-badge]: https://img.shields.io/badge/Keras_Core-0.1%2B-D00000.svg?style=for-the-badge&logo=keras&logoColor=white 
-[keras-link]: https://keras.io/
-[optuna-badge]: https://img.shields.io/badge/Optuna-3.0%2B-8D53A0.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjOEM1M0EwIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+T3B0dW5hPC90aXRsZT48cGF0aCBkPSJNMTIgMEM1LjM3MyAwIDAgNS4zNzMgMCAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMiBTMTguNjI3IDAgMTIgMHptMCAyMS42YTEuMiAxLjIgMCAxIDEgMCAyLjQgMS4yIDEuMiAwIDAgMSAwLTIuNHptMy42LTE4djEuOGgtMS44djMuNmgtMy42VjUuNGgtMS44VjMuNmg3LjJ6bS0zLjYgOS42YTEuMiAxLjIgMCAxIDEgMCAyLjQgMS4yIDEuMiAwIDAgMSAwLTIuNHptLTMuNi0zLjZhMS4yIDEuMiAwIDEgMSAwIDIuNCAxLjIgMS4yIDAgMCAxIDAtMi40em03LjIgMGEyLjQgMi40IDAgMSAxIDAgNC44IDIuNCAyLjQgMCAwIDEgMC00Ljh6Ii8+PC9zdmc+
-[optuna-link]: https://optuna.org/
-[black-badge]: https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge
-[black-link]: https://github.com/psf/black
-[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
-[license-link]: https://opensource.org/licenses/MIT
-
+ <img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python" alt="Python Version">
+  <img src="https://img.shields.io/badge/TensorFlow-2.10%2B-orange?style=for-the-badge&logo=tensorflow" alt="TensorFlow Version">
+  <img src="https://img.shields.io/badge/Keras-2.10%2B-red?style=for-the-badge&logo=keras" alt="Keras Version">
+  <img src="https://img.shields.io/badge/Optuna-3.0%2B-purple?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjODk1M0EwIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+T3B0dW5hPC90aXRsZT48cGF0aCBkPSJNMTIgMEM1LjM3MyAwIDAgNS4zNzMgMCAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMiBTMTguNjI3IDAgMTIgMHptMCAyMS42YTEuMiAxLjIgMCAxIDEgMCAyLjQgMS4yIDEuMiAwIDAgMSAwLTIuNHptMy42LTE4djEuOGgtMS44djMuNmgtMy42VjUuNGgtMS44VjMuNmg3LjJ6bS0zLjYgOS42YTEuMiAxLjIgMCAxIDEgMCAyLjQgMS4yIDEuMiAwIDAgMSAwLTIuNHptLTMuNi0zLjZhMS4yIDEuMiAwIDEgMSAwIDIuNCAxLjIgMS4yIDAgMCAxIDAtMi40em03LjIgMGEyLjQgMi40IDAgMSAxIDAgNC44IDIuNCAyLjQgMCAwIDEgMC00Ljh6Ii8+PC9zdmc+" alt="Optuna Version">
+  <img src="https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge" alt="Code Style: Black">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT">
 </p>
 
 # Advanced Fetal Health Classification using Hybrid Deep Learning
