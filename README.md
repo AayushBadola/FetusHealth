@@ -224,8 +224,8 @@ Let's connect:
 
 ---
 
+<p align="center">
 
+<img src="https://giphy.com/gifs/pudgypenguins-happy-coffee-in-my-zone-Sl7OlpTiHi9pPPZKp4" width="480" height="480">
 
-<iframe src="https://giphy.com/embed/Sl7OlpTiHi9pPPZKp4" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pudgypenguins-happy-coffee-in-my-zone-Sl7OlpTiHi9pPPZKp4">via GIPHY</a></p>
-
-
+</p>
