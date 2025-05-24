@@ -226,4 +226,9 @@ Let's connect:
 
 <p align="center">
   <img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20%26%20%E2%98%95%EF%B8%8F-black?style=flat-square" alt="Made with Love and Coffee">
+
+<br>
+
+<iframe src="https://giphy.com/embed/Sl7OlpTiHi9pPPZKp4" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pudgypenguins-happy-coffee-in-my-zone-Sl7OlpTiHi9pPPZKp4">via GIPHY</a></p>
+
 </p>
