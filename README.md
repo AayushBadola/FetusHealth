@@ -1,8 +1,3 @@
-
-# Advanced Fetal Health Classification using Hybrid Deep Learning
-
-This project implements a sophisticated deep learning pipeline for the classification of fetal health status based on Cardiotocography (CTG) features. The core of the project is a custom-designed hybrid neural network, combining Convolutional Neural Networks (CNNs) with Transformer Encoder mechanisms, optimized via automated hyperparameter search using Optuna. The objective is to achieve high predictive accuracy and provide a robust framework for CTG data analysis.
-
 [python-badge]: https://img.shields.io/badge/Python-3.9%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white
 [python-link]: https://www.python.org/
 [tensorflow-badge]: https://img.shields.io/badge/TensorFlow-2.10%2B-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white
@@ -15,6 +10,13 @@ This project implements a sophisticated deep learning pipeline for the classific
 [black-link]: https://github.com/psf/black
 [license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
 [license-link]: https://opensource.org/licenses/MIT
+
+
+# Advanced Fetal Health Classification using Hybrid Deep Learning
+
+This project implements a sophisticated deep learning pipeline for the classification of fetal health status based on Cardiotocography (CTG) features. The core of the project is a custom-designed hybrid neural network, combining Convolutional Neural Networks (CNNs) with Transformer Encoder mechanisms, optimized via automated hyperparameter search using Optuna. The objective is to achieve high predictive accuracy and provide a robust framework for CTG data analysis.
+
+
 
 ## Project Status
 
@@ -234,6 +236,6 @@ Connect with me:
 [license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
 [license-link]: https://opensource.org/licenses/MIT
 [love-coffee-badge]: https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20%26%20%E2%98%95%EF%B8%8F-black?style=for-the-badge
-[love-coffee-link]: 
+
 
 
