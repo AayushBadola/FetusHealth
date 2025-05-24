@@ -16,8 +16,6 @@ This project implements a sophisticated deep learning pipeline for the classific
 
 ## Project Status
 
-**Current Phase:** Hyperparameter Optimization (Ongoing)
-**Target Model:** `build_cnn_transformer_hybrid`
 **IDE Tested:** Google Colab (with T4 GPU), VSCode
 
 ## Table of Contents
