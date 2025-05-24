@@ -178,7 +178,7 @@ FetusHealth/
 2.  **Environment:** Create and activate a Python virtual environment.
     ```bash
     python -m venv venv
-    source venv/bin/activate  # Windows: venv\Scripts\activate
+    source venv/bin/activate     # windows : ./venv/Scripts/activate
     ```
 3.  **Dependencies:** `pip install -r requirements.txt`
 4.  **Dataset:** Download `fetal_health.csv` from [Kaggle](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification) into `data/`. te data is in github as well
