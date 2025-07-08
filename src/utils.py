@@ -10,3 +10,4 @@ def focal_loss(gamma=2.0, alpha=0.25):
         loss = alpha * K.pow(1 - p_t, gamma) * K.sum(cross_entropy, axis=-1)
         return K.mean(loss)
     return focal_loss_fixed
+
