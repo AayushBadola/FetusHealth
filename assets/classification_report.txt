@@ -1,0 +1,11 @@
+Classification Report for Champion Model (Trial 0 Recreation)
+
+              precision    recall  f1-score   support
+
+      Normal     0.9341    0.9398    0.9369       166
+     Suspect     0.7500    0.6207    0.6792        29
+Pathological     0.8182    1.0000    0.9000        18
+
+    accuracy                         0.9014       213
+   macro avg     0.8341    0.8535    0.8387       213
+weighted avg     0.8993    0.9014    0.8987       213
