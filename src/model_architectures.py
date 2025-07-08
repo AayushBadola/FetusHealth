@@ -115,3 +115,4 @@ def build_simple_1d_cnn(input_shape, num_classes, hp=None):
         num_conv_blocks = hp.suggest_int('simple_cnn_conv_blocks', 1, 2)
         dense_units = hp.suggest_categorical('simple_cnn_dense_units', [64, 128, 256])
         dropout_rate_dense = hp.suggest_float('simple_cnn_dropout_dense', 0.3, 0.6, step=0.05)
+
