@@ -1,3 +1,5 @@
+# FILE: src/config.py
+
 import os
 import tensorflow as tf
 
@@ -9,7 +11,8 @@ RESULTS_DIR = "results"
 TARGET_ACCURACY = 0.97
 RANDOM_SEED = 42
 
-BATCH_SIZE = 32
+
+BATCH_SIZE = 128
 VALIDATION_SPLIT = 0.2
 TEST_SPLIT = 0.1
 
@@ -39,6 +42,7 @@ DENSE_UNITS_1 = 256
 DENSE_UNITS_2 = 128
 HEAD_DROPOUT = 0.5
 
+# --- Setup Directories and Seeds ---
 os.makedirs("models", exist_ok=True)
 os.makedirs(RESULTS_DIR, exist_ok=True)
 os.makedirs(os.path.join(RESULTS_DIR, "logs"), exist_ok=True)
