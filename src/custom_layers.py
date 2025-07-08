@@ -179,3 +179,38 @@ class TransformerEncoder(Layer):
             "seq_len_for_pe": self.seq_len_for_pe,
         })
         return config
+
+
+def cnn_residual_block(input_tensor, filters, kernel_size, dropout_rate, name_prefix=""):
+    """
+    Creates a CNN residual block with a shortcut connection.
+    Handles dimension changes in the shortcut path.
+    """
+    x = input_tensor
+    
+    # Main path
+    x_main = Conv1D(filters, kernel_size, padding='same', kernel_initializer='he_normal', name=f"{name_prefix}conv1")(x)
+    x_main = BatchNormalization(name=f"{name_prefix}bn1")(x_main)
+    x_main = LeakyReLU(negative_slope=0.01, name=f"{name_prefix}leakyrelu1")(x_main)
+    x_main = Dropout(dropout_rate, name=f"{name_prefix}dropout1")(x_main)
+
+    x_main = Conv1D(filters, kernel_size, padding='same', kernel_initializer='he_normal', name=f"{name_prefix}conv2")(x_main)
+    x_main = BatchNormalization(name=f"{name_prefix}bn2")(x_main)
+
+    
+    
+    
+    if x.shape[-1] != filters:
+        shortcut = Conv1D(filters, 1, padding='same', kernel_initializer='he_normal', name=f"{name_prefix}shortcut_conv")(x)
+        shortcut = BatchNormalization(name=f"{name_prefix}shortcut_bn")(shortcut)
+    else:
+        shortcut = x
+
+    
+    x_add = Add(name=f"{name_prefix}add")([shortcut, x_main])
+    
+    # Final activation
+    output_tensor = LeakyReLU(negative_slope=0.01, name=f"{name_prefix}final_leakyrelu")(x_add)
+    
+    return output_tensor
+
